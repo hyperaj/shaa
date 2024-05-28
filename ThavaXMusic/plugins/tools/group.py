@@ -15,7 +15,7 @@ async def brah2(_, msg):
 # invite members on vc
 @app.on_message(filters.video_chat_members_invited)
 async def brah3(app :app, message:Message):
-           text = f"{message.from_user.mention} ɪɴᴠɪᴛᴇᴅ "
+           text = f"{message.from_user.mention} 𝐸𝑛 𝐷𝑢𝑟𝑔 𝑉𝑖𝑏𝑒 𝑂𝑑𝑎 🫶 𝑢𝑛𝑔𝑎 𝑉𝑖𝑏𝑒 𝑉𝑎𝑛𝑡ℎ𝑢 🫰 𝐸𝑛𝑗𝑜𝑦 𝑝𝑎𝑛𝑛𝑢𝑛𝑔𝑎🥂 🍂 "
            x = 0
            for user in message.video_chat_members_invited.users:
              try:
@@ -24,7 +24,7 @@ async def brah3(app :app, message:Message):
              except Exception:
                pass
            try:
-             await message.reply(f"{text} 𝐸𝑛 𝐷𝑢𝑟𝑔 𝑉𝑖𝑏𝑒 𝑂𝑑𝑎 🫶 𝑢𝑛𝑔𝑎 𝑉𝑖𝑏𝑒 𝑉𝑎𝑛𝑡ℎ𝑢 🫰 𝐸𝑛𝑗𝑜𝑦 𝑝𝑎𝑛𝑛𝑢𝑛𝑔𝑎🥂 🍂")
+             await message.reply(f"{text} 🍃")
            except:
              pass
 
