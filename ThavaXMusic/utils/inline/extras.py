@@ -33,7 +33,7 @@ def supp_markup(_):
             [
                 InlineKeyboardButton(
                     text=_["S_B_9"],
-                    url=SUPPORT_CHAT,
+                    url=f"https://t.me/Team_Hypers_Networks,
                 ),
             ]
         ]
