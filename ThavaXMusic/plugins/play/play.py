@@ -31,11 +31,10 @@ from ThavaXMusic.utils.database import (
 from ThavaXMusic.utils.logger import play_logs
 from ThavaXMusic.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
-
-STICKER = [
-    "CAACAgUAAx0Ce3V9_QACA_VmV1uaeuIEyVmGdLMgbVs1-iRW-wAC4gsAAtArUVQyAqXaBLPgTR4E",
-    "CAACAgUAAx0Ce3V9_QACA_VmV1uaeuIEyVmGdLMgbVs1-iRW-wAC4gsAAtArUVQyAqXaBLPgTR4E",
-    "CAACAgUAAx0Ce3V9_QACA_VmV1uaeuIEyVmGdLMgbVs1-iRW-wAC4gsAAtArUVQyAqXaBLPgTR4E"  
+EMOJI = [
+    "🍷",
+    "🍷",
+    "🍷"  
 ]
 
 
