@@ -11,7 +11,7 @@ from ThavaXMusic.utils.inline import close_markup
 from config import BANNED_USERS, OWNER_ID, START_IMG_URL
 
 
-@app.on_message(filters.command(["hypersudo"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & filters.user(OWNER_ID))
+@app.on_message(filters.command(["addsudo"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & filters.user(OWNER_ID))
 @language
 async def useradd(client, message: Message, _):
     if not message.reply_to_message:
@@ -48,26 +48,26 @@ async def userdel(client, message: Message, _):
 
 GAMDOP = START_IMG_URL
 
-@app.on_message(filters.command(["hyperlist"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & ~BANNED_USERS)
+@app.on_message(filters.command(["sudolist"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & ~BANNED_USERS)
 async def sudoers_list(client, message: Message):
     keyboard = [[InlineKeyboardButton(" sᴜᴅᴏʟɪsᴛ ", callback_data="check_sudo_list")]]
     reply_markups = InlineKeyboardMarkup(keyboard)
-    await message.reply_photo(photo=GAMDOP, caption="➤ ᴄʜᴇᴄᴋ ᴛᴏ sᴇᴇɴ ᴛʜᴇ ᴍᴀɢɪᴄ ʙʟɪɴɢ ʙʟɪɴɢ ✨.\n\n <u><b>ɴᴏᴛᴇ:</b></u> ᴏɴʟʏ sᴜᴅᴏ ᴜsᴇʀs ᴄᴀɴ ᴠɪᴇᴡ.", reply_markup=reply_markups)
+    await message.reply_photo(photo="https://telegra.ph/file/f69e1a6ecd625ebd3ab85.jpg", caption=" ღ  ᴄʜᴇᴄᴋ ᴛᴏ sᴇᴇɴ ᴛʜᴇ ᴍᴀɢɪᴄ ʙʟɪɴɢ ʙʟɪɴɢ  ღ .\n\n <u><b>ɴᴏᴛᴇ:</b></u> ᴏɴʟʏ sᴜᴅᴏ ᴜsᴇʀs ᴄᴀɴ ᴠɪᴇᴡ.", reply_markup=reply_markups)
 
 
 @app.on_callback_query(filters.regex("^check_sudo_list$"))
 async def check_sudo_list(client, callback_query: CallbackQuery):
     keyboard = []
     if callback_query.from_user.id not in SUDOERS:
-        return await callback_query.answer("➤ ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴜᴅᴏ 😝 ᴛʜɪꜱ ʟɪꜱᴛ ᴏɴʟʏ ᴏᴘᴇɴ ᴏᴡɴᴇʀ ᴀɴᴅ ꜱᴜᴅᴏ ᴏɴʟʏ 😏", show_alert=True)
+        return await callback_query.answer(" ღ  ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴜᴅᴏ  ღ  ᴛʜɪꜱ ʟɪꜱᴛ ᴏɴʟʏ ᴏᴘᴇɴ ᴏᴡɴᴇʀ ᴀɴᴅ ꜱᴜᴅᴏ ᴏɴʟʏ  ღ ", show_alert=True)
     else:
         user = await app.get_users(OWNER_ID)
 
         user_mention = (user.first_name if not user.mention else user.mention)
-        caption = f"<u><b>**˹ʟɪsᴛ ᴏғ ʙᴏᴛ ᴍᴏᴅᴇʀᴀᴛᴏʀs˼**\n\n𝄞 ᴏᴡɴᴇʀ 𝄞 :</b></u>\n ‣ {user_mention}\n\n"
-        sudo_users_caption = "<u><b>𝄞 sᴜᴅᴏ ᴜsᴇʀs 𝄞 :</b></u>\n"
+        caption = f"<u><b>**˹ʟɪsᴛ ᴏғ ʙᴏᴛ ᴍᴏᴅᴇʀᴀᴛᴏʀs˼**\n\n ღ  ᴏᴡɴᴇʀ  ღ  :</b></u>\n ‣ {user_mention}\n\n"
+        sudo_users_caption = "<u><b> ღ  sᴜᴅᴏ ᴜsᴇʀs  ღ  :</b></u>\n"
 
-        keyboard.append([InlineKeyboardButton("𝄞 ᴠɪᴇᴡ ᴏᴡɴᴇʀ 𝄞 ", url=f"tg://openmessage?user_id={OWNER_ID}")])
+        keyboard.append([InlineKeyboardButton(" ღ  ᴠɪᴇᴡ ᴏᴡɴᴇʀ  ღ  ", url=f"tg://openmessage?user_id={OWNER_ID}")])
        #keyboard.append([InlineKeyboardButton("ᴄʟᴏsᴇ",callback_data="close_data")])
         
         count = 1
