@@ -52,11 +52,11 @@ from ThavaXMusic.utils.database import get_assistant, is_active_chat
 
 
 random_photo = [
-    "https://telegra.ph/file/1949480f01355b4e87d26.jpg",
-    "https://telegra.ph/file/3ef2cc0ad2bc548bafb30.jpg",
-    "https://telegra.ph/file/a7d663cd2de689b811729.jpg",
-    "https://telegra.ph/file/6f19dc23847f5b005e922.jpg",
-    "https://telegra.ph/file/2973150dd62fd27a3a6ba.jpg",
+    "https://telegra.ph/file/f69e1a6ecd625ebd3ab85.jpg",
+    "https://telegra.ph/file/f69e1a6ecd625ebd3ab85.jpg",
+    "https://telegra.ph/file/f69e1a6ecd625ebd3ab85.jpg",
+    "https://telegra.ph/file/f69e1a6ecd625ebd3ab85.jpg",
+    "https://telegra.ph/file/f69e1a6ecd625ebd3ab85.jpg",
 ]
 # --------------------------------------------------------------------------------- #
 
@@ -195,21 +195,23 @@ async def greet_new_member(_, member: ChatMemberUpdated):
                 member.chat.id,
                 photo=welcomeimg,
                 caption=f"""
-╭──────⌁᳀⌁╾─────╮              
-      [𝐓ᴇᴀᴍ 𝐇ʏᴘᴇʀ 𝐍ᴇᴛᴡᴏʀᴋ](https://t.me/Hyper_networks_updates)
-╰─────╼⌁᳀⌁╾─────╯
+╭━━━━━━━━━━━∙⋆⋅⋆∙━━━━━━━━━━━╮
 
-·̇·̣̇̇·̣̣̇·̣̇̇·̇ •❣•୨୧┈┈┈┈┈┈┈୨୧•❣• ·̇·̣̇̇·̣̣̇·̣̇̇·̇
+ **＊*•̩̩͙✩•̩̩͙*˚𝓌𝑒𝒸𝑜𝓂𝑒˚*•̩̩͙✩•̩̩͙*＊
+ 
+**♡*.¸*☆*¸.*♡*.¸¸*☆*¸¸.*♡
 
-**🍁 ɴᴀᴍᴇ 🍂** {user.mention}
+**𓆩♡𓆪 Nᴀᴍᴇ ✧** {user.mention}
 
-**🍁 ɪᴅ 🍂** `{user.id}`
+**𓆩♡𓆪 Iᴅ ✧** {user.id}
 
-**🍁 ᴜ_ɴᴀᴍᴇ 🍂** @{user.username}
+**𓆩♡𓆪 Usᴇʀɴᴀᴍᴇ ✧** @{user.username}
 
-**🍁 ᴛᴏᴛᴀʟ ᴍᴇᴍʙᴇʀs 🍂** {count}
+**𓆩♡𓆪 Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs ✧** {count}
 
-·̇·̣̇̇·̣̣̇·̣̇̇·̇  •❣•୨୧┈┈┈┈┈┈┈୨୧•❣• ·̇·̣̇̇·̣̣̇·̣̇̇·̇
+*♡*.¸*☆*¸.*♡*.¸¸*☆*¸¸.*♡**
+
+╰━━━━━━━━━━━∙⋆⋅⋆∙━━━━━━━━━━━╯
 
 """,
                 reply_markup=InlineKeyboardMarkup([
