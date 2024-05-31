@@ -14,8 +14,8 @@ from ThavaXMusic.mongo.couples_db import _get_image, get_couple
 POLICE = [
     [
         InlineKeyboardButton(
-            text="𝐓ᴇᴀᴍ 𝐇ʏᴘᴇʀ",
-            url=f"https://t.me/Team_Hypers_Networks",
+            text="ღ 𝑱𝒐𝒊𝒏 ღ",
+            url=f"https://t.me/The_Art_Of_Self_Healing",
         ),
     ],
 ]
@@ -106,11 +106,11 @@ async def ctest(_, message):
          img.save(f'test_{cid}.png')
     
          TXT = f"""
-**ɪɴʀᴀɪʏᴀ ᴊᴏᴅɪ ᴘᴜʀᴀ:
-
-{N1} + {N2} = 💙
-
-ɴᴀᴋᴀɪᴋɪ ᴠᴀɴɢᴀ ᴍᴀᴘʟᴀ {tomorrow} !!**
+**𝒯𝑜𝒹𝒶𝓎 '𝓈 𝒮𝑒𝓁𝑒𝒸𝓉𝑒𝒹 𝒫𝒶𝒾𝓇𝓈 ღ 
+┍━━━━━━━━━━━»•» 🌺«•«━┑
+  {N1} + {N2} = 𓆩♡𓆪
+┕━»•» 🌺«•«━━━━━━━━━━━┙
+𝒩𝑒𝓍𝓉 𝒫𝒶𝒾𝓇𝓈 𝒮𝑒𝓁𝑒𝒸𝓉𝒾𝓃𝑔  𝒲𝒾𝓁𝓁 𝐵𝑒 𝒮𝑒𝓁𝑒𝒸𝓉𝑒𝒹 𝒪𝓃 {tomorrow} !!**
 """
     
          await message.reply_photo(f"test_{cid}.png", caption=TXT, reply_markup=InlineKeyboardMarkup(POLICE),
@@ -132,11 +132,11 @@ async def ctest(_, message):
         # c2_name = (await app.get_users(c2_id)).first_name
          
       #   TXT = f"""
-#**ɪɴʀᴀɪʏᴀ ᴊᴏᴅɪ ᴘᴜʀᴀ :
-#➖➖➖➖➖➖➖➖➖➖➖➖
+#**𝒯𝑜𝒹𝒶𝓎 '𝓈 𝒮𝑒𝓁𝑒𝒸𝓉𝑒𝒹 𝒫𝒶𝒾𝓇𝓈 ღ  
+#┍━━━━━━━━━━━»•» 🌺«•«━┑
 #[{c1_name}](tg://openmessage?user_id={c1_id}) + [{c2_name}](tg://openmessage?user_id={c2_id}) = ❣️
-#➖➖➖➖➖➖➖➖➖➖➖➖
-#ɴᴀᴋᴀɪᴋɪ ᴠᴀɴɢᴀ ᴍᴀᴘʟᴀ {tomorrow} !!**
+#┕━»•» 🌺«•«━━━━━━━━━━━┙
+#𝒩𝑒𝓍𝓉 𝒫𝒶𝒾𝓇𝓈 𝒮𝑒𝓁𝑒𝒸𝓉𝒾𝓃𝑔  𝒲𝒾𝓁𝓁 𝐵𝑒 𝒮𝑒𝓁𝑒𝒸𝓉𝑒𝒹 𝒪𝓃 {tomorrow} !!**
 #"""
  #        await message.reply_photo(b, caption=TXT)
         # await msg.delete()
