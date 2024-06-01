@@ -72,8 +72,8 @@ def aq_markup(_, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
-            InlineKeyboardButton(text="🦋 ɴᴇᴛᴡᴏʀᴋ 🤍", url=f"https://t.me/Team_Hypers_Networks"),
-            InlineKeyboardButton(text="🦋 ᴜᴘᴅᴀᴛᴇ 🤍", url=f"https://t.me/Hyper_networks_updates"),
+            InlineKeyboardButton(text="𓆩♡𓆪 ᴊᴏɪɴ 𓆩♡𓆪", url=f"https://t.me/The_Art_Of_Self_Healing"),
+            InlineKeyboardButton(text=""𓆩♡𓆪 Dᴇᴠᴇʟᴏᴘᴇʀ 𓆩♡𓆪", url=f"https://t.me/King_0f_izzy"),
         ]
     ]
     return buttons
