@@ -109,16 +109,16 @@ def welcomepic(pic, user, chatname, id, uname, brightness_factor=1.3):
     background = Image.open("ThavaXMusic/assets/wel2.png")
     pfp = Image.open(pic).convert("RGBA")
     pfp = circle(pfp, brightness_factor=brightness_factor) 
-    pfp = pfp.resize((635, 635))
+    pfp = pfp.resize((800, 800))
     draw = ImageDraw.Draw(background)
     font = ImageFont.truetype('ThavaXMusic/assets/font.ttf', size=70)
     welcome_font = ImageFont.truetype('ThavaXMusic/assets/font.ttf', size=61)
-    #draw.text((630, 540), f'ID: {id}', fill=(255, 255, 255), font=font)
+    #draw.text((0, 0), f'ID: {id}', fill=(255, 255, 255), font=font)
     #
- #   draw.text((630, 300), f'NAME: {user}', fill=(255, 255, 255), font=font)
-    draw.text((2999, 450), f'ID: {id}', fill=(255, 255, 255), font=font)
-#    draw.text((630, 150), f"{chatname}", fill=(225, 225, 225), font=welcome_font)
-  #  draw.text((630, 230), f"USERNAME : {uname}", fill=(255, 255, 255), font=font)
+ #   draw.text((0, 0), f'NAME: {user}', fill=(255, 255, 255), font=font)
+    draw.text((0, 0), f'ID: {id}', fill=(255, 255, 255), font=font)
+#    draw.text((0, 0), f"{chatname}", fill=(225, 225, 225), font=welcome_font)
+  #  draw.text((0, 0), f"USERNAME : {uname}", fill=(255, 255, 255), font=font)
 
     #
     pfp_position = (300, 308)
@@ -195,7 +195,7 @@ async def greet_new_member(_, member: ChatMemberUpdated):
                 member.chat.id,
                 photo=welcomeimg,
                 caption=f"""
-╭━━━━━━━━━━━∙⋆⋅⋆∙━━━━━━━━━━━╮
+╭━━━━━━━━━━∙⋆⋅⋆∙━━━━━━━━━━╮
 
  **＊*•̩̩͙✩•̩̩͙*˚𝓌𝑒𝒸𝑜𝓂𝑒˚*•̩̩͙✩•̩̩͙*＊
  
@@ -211,7 +211,7 @@ async def greet_new_member(_, member: ChatMemberUpdated):
 
 *♡*.¸*☆*¸.*♡*.¸¸*☆*¸¸.*♡**
 
-╰━━━━━━━━━━━∙⋆⋅⋆∙━━━━━━━━━━━╯
+╰━━━━━━━━━━∙⋆⋅⋆∙━━━━━━━━━━╯
 
 """,
                 reply_markup=InlineKeyboardMarkup([
