@@ -26,8 +26,8 @@ def private_panel(_):
         ],
         [InlineKeyboardButton(text="𓆩♡𓆪 ʜᴇʟᴘ 𓆩♡𓆪", callback_data="settings_back_helper")],
         [
-            InlineKeyboardButton(text="𓆩♡𓆪 ɴᴇᴛᴡᴏʀᴋ 𓆩♡𓆪", url=f"https://t.me/Team_Hypers_Networks"),
-            InlineKeyboardButton(text="𓆩♡𓆪 ᴜᴘᴅᴀᴛᴇ 𓆩♡𓆪", url=f"https://t.me/Hyper_networks_updates"),
+            InlineKeyboardButton(text="𓆩♡𓆪 ɴᴇᴛᴡᴏʀᴋ 𓆩♡𓆪", url=f"https://t.me/The_Art_Of_Self_Healing"),
+            InlineKeyboardButton(text="𓆩♡𓆪 ᴜᴘᴅᴀᴛᴇ 𓆩♡𓆪", url=f"https://t.me/The_Art_Of_Self_Healing"),
         ],
         [
             InlineKeyboardButton(text="𓆩♡𓆪 ᴏᴡɴᴇʀ 𓆩♡𓆪", url=f"https://t.me/healer_selvaa"),
