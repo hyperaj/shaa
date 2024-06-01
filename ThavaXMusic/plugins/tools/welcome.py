@@ -75,7 +75,7 @@ class WelDatabase:
 
     async def add_wlcm(self, chat_id):
         if chat_id not in self.data:
-            self.data[chat_id] = {"state": "on"}  # Default state is "on"
+            self.data[chat_id] = {"state": "off"}  # Default state is "on"
 
     async def rm_wlcm(self, chat_id):
         if chat_id in self.data:
@@ -121,7 +121,7 @@ def welcomepic(pic, user, chatname, id, uname, brightness_factor=1.3):
   #  draw.text((630, 230), f"USERNAME : {uname}", fill=(255, 255, 255), font=font)
 
     #
-    pfp_position = (144, 308)
+    pfp_position = (300, 308)
     background.paste(pfp, pfp_position, pfp)
     background.save(f"downloads/welcome#{id}.png")
     return f"downloads/welcome#{id}.png"
