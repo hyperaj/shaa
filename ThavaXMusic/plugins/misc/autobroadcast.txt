@@ -1,9 +1,9 @@
 import asyncio
 import datetime
-from ANNIEMUSIC import app
+from ThavaXMusic  import app
 from pyrogram import Client
 from config import START_IMG_URL
-from ANNIEMUSIC.utils.database import get_served_chats
+from ThavaXMusic .utils.database import get_served_chats
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
