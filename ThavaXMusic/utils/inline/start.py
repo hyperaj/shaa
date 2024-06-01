@@ -20,18 +20,18 @@ def private_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🍁 ᴀᴅᴅ ᴍᴇ 🍂",
+                text="𓆩♡𓆪 ᴀᴅᴅ ᴍᴇ 𓆩♡𓆪",
                 url=f"https://t.me/{app.username}?startgroup=true",
             )
         ],
-        [InlineKeyboardButton(text="🍁 ʜᴇʟᴘ 🍂", callback_data="settings_back_helper")],
+        [InlineKeyboardButton(text="𓆩♡𓆪 ʜᴇʟᴘ 𓆩♡𓆪", callback_data="settings_back_helper")],
         [
-            InlineKeyboardButton(text="🍁 ɴᴇᴛᴡᴏʀᴋ 🍂", url=f"https://t.me/Team_Hypers_Networks"),
-            InlineKeyboardButton(text="🍁 ᴜᴘᴅᴀᴛᴇ 🍂", url=f"https://t.me/Hyper_networks_updates"),
+            InlineKeyboardButton(text="𓆩♡𓆪 ɴᴇᴛᴡᴏʀᴋ 𓆩♡𓆪", url=f"https://t.me/Team_Hypers_Networks"),
+            InlineKeyboardButton(text="𓆩♡𓆪 ᴜᴘᴅᴀᴛᴇ 𓆩♡𓆪", url=f"https://t.me/Hyper_networks_updates"),
         ],
         [
-            InlineKeyboardButton(text="🍁 ᴏᴡɴᴇʀ 🍂", url=f"https://t.me/only_god_can_judgehimm"),
-            InlineKeyboardButton(text="🍁 Dᴇᴠᴇʟᴏᴘᴇʀ 🍂", url=f"https://t.me/King_0f_izzy"),
+            InlineKeyboardButton(text="𓆩♡𓆪 ᴏᴡɴᴇʀ 𓆩♡𓆪", url=f"https://t.me/healer_selvaa"),
+            InlineKeyboardButton(text="𓆩♡𓆪 Dᴇᴠᴇʟᴏᴘᴇʀ 𓆩♡𓆪", url=f"https://t.me/King_0f_izzy"),
         ],
     ]
     return buttons
