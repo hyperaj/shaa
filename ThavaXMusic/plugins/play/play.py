@@ -32,9 +32,9 @@ from ThavaXMusic.utils.logger import play_logs
 from ThavaXMusic.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
 EMOJI = [
-    "🍷",
-    "🍷",
-    "🍷"  
+    "🥰",
+    "🥰",
+    "🥰"  
 ]
 
 
