@@ -35,25 +35,25 @@ def stream_markup_timer(_, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     umm = math.floor(percentage)
     if 0 < umm <= 10:
-        bar = "𝐓ᴇᴀᴍ 𝐇ʏᴘᴇʀ 𝐍ᴇᴛᴡᴏʀᴋ"
+        bar = "𝐒 ʜ 𝛂 𝛂 𝚳 𝛖 𝛅 𝛊 𝛓 "
     elif 10 < umm < 20:
-        bar = "𝐓ᴇᴀᴍ 𝐇ʏᴘᴇʀ 𝐍ᴇᴛᴡᴏʀᴋ"
+        bar = "𝐒 ʜ 𝛂 𝛂 𝚳 𝛖 𝛅 𝛊 𝛓 "
     elif 20 <= umm < 30:
-        bar = "𝐓ᴇᴀᴍ 𝐇ʏᴘᴇʀ 𝐍ᴇᴛᴡᴏʀᴋ"
+        bar = "𝐒 ʜ 𝛂 𝛂 𝚳 𝛖 𝛅 𝛊 𝛓 "
     elif 30 <= umm < 40:
-        bar = "𝐓ᴇᴀᴍ 𝐇ʏᴘᴇʀ 𝐍ᴇᴛᴡᴏʀᴋ"
+        bar = "𝐒 ʜ 𝛂 𝛂 𝚳 𝛖 𝛅 𝛊 𝛓 "
     elif 40 <= umm < 50:
-        bar = "𝐓ᴇᴀᴍ 𝐇ʏᴘᴇʀ 𝐍ᴇᴛᴡᴏʀᴋ"
+        bar = "𝐒 ʜ 𝛂 𝛂 𝚳 𝛖 𝛅 𝛊 𝛓 "
     elif 50 <= umm < 60:
-        bar = "𝐓ᴇᴀᴍ 𝐇ʏᴘᴇʀ 𝐍ᴇᴛᴡᴏʀᴋ"
+        bar = "𝐒 ʜ 𝛂 𝛂 𝚳 𝛖 𝛅 𝛊 𝛓 "
     elif 60 <= umm < 70:
-        bar = "𝐓ᴇᴀᴍ 𝐇ʏᴘᴇʀ 𝐍ᴇᴛᴡᴏʀᴋ"
+        bar = "𝐒 ʜ 𝛂 𝛂 𝚳 𝛖 𝛅 𝛊 𝛓 "
     elif 70 <= umm < 80:
-        bar = "𝐓ᴇᴀᴍ 𝐇ʏᴘᴇʀ 𝐍ᴇᴛᴡᴏʀᴋ"
+        bar = "𝐒 ʜ 𝛂 𝛂 𝚳 𝛖 𝛅 𝛊 𝛓 "
     elif 80 <= umm < 95:
-        bar = "𝐓ᴇᴀᴍ 𝐇ʏᴘᴇʀ 𝐍ᴇᴛᴡᴏʀᴋ"
+        bar = "𝐒 ʜ 𝛂 𝛂 𝚳 𝛖 𝛅 𝛊 𝛓 "
     else:
-        bar = "𝐓ᴇᴀᴍ 𝐇ʏᴘᴇʀ 𝐍ᴇᴛᴡᴏʀᴋ"
+        bar = "𝐒 ʜ 𝛂 𝛂 𝚳 𝛖 𝛅 𝛊 𝛓 "
     buttons = [
                 [
             InlineKeyboardButton(
@@ -69,12 +69,12 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
                  [
-            InlineKeyboardButton(text="🍁 ɴᴇᴛᴡᴏʀᴋ 🍂", url=f"https://t.me/Team_Hypers_Networks"),
-            InlineKeyboardButton(text="🍁 ᴏᴡɴᴇʀ 🍂", url=f"https://t.me/only_god_can_judgehimm"),           
+            InlineKeyboardButton(text="𓆩♡𓆪 Dᴇᴠᴇʟᴏᴘᴇʀ 𓆩♡𓆪", url=f"https://t.me/Team_Hypers_Networks"),
+            InlineKeyboardButton(text="ღ ᴏᴡɴᴇʀ ღ", url=f"https://t.me/Healer_Selvaa"),           
         ],
         [
-        InlineKeyboardButton(text="🍁 ᴜᴘᴅᴀᴛᴇ 🍂", url=f"https://t.me/Hyper_networks_updates"),
-        InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="🍁 close 🍂"),
+        InlineKeyboardButton(text="ღ ᴜᴘᴅᴀᴛᴇ ღ", url=f"https://t.me/The_Art_Of_Self_Healing"),
+        InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="ღ close ღ"),
         ]
     ]
     return buttons
@@ -90,11 +90,11 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
                  [
-            InlineKeyboardButton(text="🍁 ɴᴇᴛᴡᴏʀᴋ 🍂", url=f"https://t.me/Team_Hypers_Networks"),
-            InlineKeyboardButton(text="🍁 ᴏᴡɴᴇʀ 🍂", url=f"https://t.me/only_god_can_judgehimm"),           
+            InlineKeyboardButton(text="𓆩♡𓆪 Dᴇᴠᴇʟᴏᴘᴇʀ 𓆩♡𓆪", url=f"https://t.me/King_0f_izzy"),
+            InlineKeyboardButton(text="ღ ᴏᴡɴᴇʀ ღ", url=f"https://t.me/Healer_Selvaa"),           
         ],
         [
-        InlineKeyboardButton(text="🍁 ᴜᴘᴅᴀᴛᴇ 🍂", url=f"https://t.me/Hyper_networks_updates"),
+        InlineKeyboardButton(text="ღ ᴜᴘᴅᴀᴛᴇ ღ", url=f"https://t.me/The_Art_Of_Self_Healing"),
         InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"),
         ]
     ]
