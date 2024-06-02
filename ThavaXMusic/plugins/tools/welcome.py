@@ -109,7 +109,7 @@ def welcomepic(pic, user, chatname, id, uname, brightness_factor=1.3):
     background = Image.open("ThavaXMusic/assets/wel2.png")
     pfp = Image.open(pic).convert("RGBA")
     pfp = circle(pfp, brightness_factor=brightness_factor) 
-    pfp = pfp.resize((1000, 1000))
+    pfp = pfp.resize((960, 960))
     draw = ImageDraw.Draw(background)
     font = ImageFont.truetype('ThavaXMusic/assets/font.ttf', size=70)
     welcome_font = ImageFont.truetype('ThavaXMusic/assets/font.ttf', size=61)
@@ -121,7 +121,7 @@ def welcomepic(pic, user, chatname, id, uname, brightness_factor=1.3):
   #  draw.text((0, 0), f"USERNAME : {uname}", fill=(255, 255, 255), font=font)
 
     #
-    pfp_position = (220, 500)
+    pfp_position = (210, 500)
     background.paste(pfp, pfp_position, pfp)
     background.save(f"downloads/welcome#{id}.png")
     return f"downloads/welcome#{id}.png"
