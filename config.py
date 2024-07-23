@@ -10,7 +10,7 @@ API_ID = int(getenv("API_ID", "22887069"))
 
 API_HASH = getenv("API_HASH", "2c1c5aa734e179c3ace60a721e82a576")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "7220055435:AAHOedzrjCwgYY71hrGNBFZLWuAxNjhyLxE")
+BOT_TOKEN = getenv("BOT_TOKEN", "7476750537:AAE9dbwWp8lWU2JQNl7v_kShWwLJFd-IkrE")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://musicheysiri:musicsiri123@cluster0.gozblfn.mongodb.net/?appName=Cluster0")
 
